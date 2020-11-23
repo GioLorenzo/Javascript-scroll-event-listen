@@ -20,3 +20,51 @@ header{
     overflow: hidden;
     margin-bottom: 100px
 }
+
+.intro-img{
+    max-height: 600px;
+    min-width: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.intro-title{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 150px;
+    font-size: 30px;
+    min-width: 535px;
+}
+
+.intro-text{
+    margin: 0 auto 100px;
+    min-width: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro-text h4{
+    margin: 10px auto;
+}
+.intro-content{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+}
+
+.empty{
+    height: 10rem;
+    bottom: 0px;
+    position: relative;
+}
