@@ -74,3 +74,17 @@ document.body.appendChild(empty);
 </div>
 <div class="empty"></div>
 */
+
+
+function scrollAppear() {
+    var introText = document.querySelector('.intro-text');
+    var introPosition = introText.getBoundingClientRect().top;
+    var screenPosition = window.innerHeight/1.4;
+    
+
+    if (introPosition < screenPosition) {
+        introText.classList.add('intro-text-show');
+    }
+}
+
+    window.addEventListener('scroll', scrollAppear);
