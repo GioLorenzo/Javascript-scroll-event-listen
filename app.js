@@ -47,3 +47,30 @@ intro.appendChild(intro_content);
 
 document.body.appendChild(intro);
 document.body.appendChild(empty);
+
+
+
+/*
+<header>
+        <img class="header-img" src="./header.jpg" alt="">
+</header> 
+
+<div class="intro">
+        <div class="intro-title">
+            <h1>Appear Effect</h1>
+        </div>
+        <div class="intro-content">
+            <div class="intro-text">
+                <h4>Take Amazing Shots</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quisquam consequuntur facere quae, iste est quo, et, nam qui 
+                quasi ducimus delectus itaque modi nesciunt alias similique 
+                voluptates ab totam laudantium deserunt? Explicabo quam at hic 
+                vitae distinctio molestiae saepe ducimus.</p>
+            </div>
+            <img class="intro-img" src="./intro.jpg" alt="">
+        </div>
+
+</div>
+<div class="empty"></div>
+*/
