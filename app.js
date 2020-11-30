@@ -59,6 +59,7 @@ document.body.appendChild(empty);
         <div class="intro-title">
             <h1>Appear Effect</h1>
         </div>
+        
         <div class="intro-content">
             <div class="intro-text">
                 <h4>Take Amazing Shots</h4>
@@ -87,4 +88,4 @@ function scrollAppear() {
     }
 }
 
-    window.addEventListener('scroll', scrollAppear);
+window.addEventListener('scroll', scrollAppear);
